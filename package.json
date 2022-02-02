@@ -1,0 +1,19 @@
+{
+  "name": "3-build-with-ssg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "vibe.js",
+  "scripts": {
+    "build": "eleventy",
+    "start": "eleventy --serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@11ty/eleventy": "^1.0.0",
+    "axios": "^0.21.4",
+    "dotenv": "^15.0.0",
+    "path": "^0.12.7"
+  }
+}
